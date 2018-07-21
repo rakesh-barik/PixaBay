@@ -23,14 +23,9 @@ public class BiometricDialogV26 extends BottomSheetDialog implements View.OnClic
 
     private BiometricCallback biometricCallback;
 
-    public BiometricDialogV26(@NonNull Context context) {
-        super(context, R.style.Theme_BiometricPromptDialog);
-        this.context = context.getApplicationContext();
-        setDialogView();
-    }
 
     public BiometricDialogV26(@NonNull Context context, BiometricCallback biometricCallback) {
-        super(context, R.style.Theme_BiometricPromptDialog);
+        super(context, R.style.Theme_MaterialComponents_Light_BottomSheetDialog);
         this.context = context.getApplicationContext();
         this.biometricCallback = biometricCallback;
         setCancelable(false);
