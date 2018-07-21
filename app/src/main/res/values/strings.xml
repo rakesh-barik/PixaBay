@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">PixaBay</string>
+    <string name="app_name">AssignmentOnDot</string>
+    <string name="search_free_images">Search free images</string>
+    <string name="flowers_animals_trees">Flowers, animals, trees..</string>
+    <string name="btn_search_txt">search</string>
+    <string name="biometric_failed">Fingerprint not recognized</string>
+    <string name="biometric_title">Login</string>
+    <string name="biometric_subtitle">Login to your PixaBay account</string>
+    <string name="biometric_description">Touch your finger on the finger print sensor to authorise your account</string>
+    <string name="biometric_negative_button_text">Cancel</string>
+    <string name="search_title">Search free images</string>
+    <string name="image_list_title">PixaBay</string>
 </resources>
